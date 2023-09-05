@@ -11,8 +11,8 @@ echo "---------------------"
 
 set -e
 
-BUILD_DIR=/home/$USER
-CACHE_DIR=/tmp
+BUILD_DIR=./pget_build
+CACHE_DIR=./pget_cache
 LP_DIR=$(cd $(dirname "$0"); cd ..; pwd)
 
 function error() {
